@@ -10,3 +10,224 @@ body {
 }
 
 /* ---------------------------------------------NAVBAR SECTION----------------------------------------------------- */
+.header-container
+{
+    height: 84px;
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.header-right
+{
+    display: flex;
+    justify-content: center;
+}
+.header-right img
+{
+    width: 115px;
+    height: 38px;
+}
+
+.header-left
+{
+    display: flex;
+    align-items: center;
+}
+
+.header-right
+{
+    width: 159px;
+    justify-content: flex-end;
+}
+
+.header-left .link
+{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    font-family: Vazir FD !important;
+    color: #464646;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.buttonwrapper 
+{
+
+    text-align: center;   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #3979D9;
+    border-radius: 100px;
+    margin-left: 25px;
+}
+
+
+.buttonwrapper
+{
+    width: 126px;
+    height: 35px;
+    transition: all ease .3s;
+    text-decoration: none;    
+}
+
+.fixed-navbar
+{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+}
+
+
+.links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .4s;
+    margin-left: 20px;
+}
+
+.buttoncontentwrapper
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-text
+{
+    color: #fff;
+    text-decoration: none!important;
+    font-family: Vazir FD !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.buttonwrapper:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0px 3px 25px 0px rgb(0 0 0 / 9%);  
+}
+
+.links a:hover
+{
+    color: #3979D9;
+}
+
+.hero-container
+{
+    padding-top: 84px;
+}
+
+.hero
+{
+    background-image: url(../IMG/tehran.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    height: calc(100vh - 84px);
+}
+
+.hero .title
+{
+    margin-right: 190px;
+    margin-top: 168px;
+    font-size: 44px !important;
+    font-weight: 900;
+    color: #262626 !important;
+    line-height: 48px;
+    text-align: right;
+    font-family: peyda !important;
+}
+.main-intro
+{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 1140px;
+    height: 487px;
+}
+.main-intro-img
+{
+    width: 461px;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin: auto;
+ 
+  
+}
+.main-intro-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 50%;
+    direction: rtl;
+
+    
+}
+.main-intro-text p
+{
+    margin-bottom: 1.6em;
+    line-height: 29.7px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Vazir FD;
+    padding-right: 10px;
+    margin-top: 0px;
+}
+
+.main-intro-text h2
+{
+    color: #000000;
+    font-size: 32px;
+    font-weight: 800;
+    font-family: peyda;
+    padding-right: 10px;
+}
+
+.getNeshan-buttonwrapper
+{
+    width: 170px;
+    height: 45px;
+    text-decoration: none;
+    background-color: #3979D9;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.getNeshan-buttonwrapper:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0px 3px 25px 0px rgb(0 0 0 / 9%);   
+}
+.buttonwrapper:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0px 3px 25px 0px rgb(0 0 0 / 9%);   
+}
