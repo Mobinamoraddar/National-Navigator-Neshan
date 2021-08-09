@@ -1,0 +1,137 @@
+@font-face {
+  font-family: Vazir FD;
+  font-weight: normal;
+  src: url("fonts/Vazir-FD.woff2") format("woff2"),
+    url("fonts/Vazir-FD.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir FD;
+  font-weight: bold;
+  src: url("fonts/Vazir-Bold-FD.woff2") format("woff2"),
+    url("fonts/Vazir-Bold-FD.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir FD;
+  font-weight: 100;
+  src: url("fonts/Vazir-Thin-FD.woff2") format("woff2"),
+    url("fonts/Vazir-Thin-FD.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir FD;
+  font-weight: 300;
+  src: url("fonts/Vazir-Light-FD.woff2") format("woff2"),
+    url("fonts/Vazir-Light-FD.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir FD;
+  font-weight: 500;
+  src: url("fonts/Vazir-Medium-FD.woff2") format("woff2"),
+    url("fonts/Vazir-Medium-FD.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir FD;
+  font-weight: 900;
+  src: url("fonts/Vazir-Black-FD.woff2") format("woff2"),
+    url("fonts/Vazir-Black-FD.woff") format("woff");
+}
+
+body,
+input,
+textarea,
+p,
+span,
+a,
+.gform_body,
+li,
+.page-title {
+  font-family: Vazir FD !important;
+}
+
+body {
+  background-color: #f8f9fd !important;
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: 100;
+  src: url("fonts/PeydaWeb-Thin.woff2") format("woff2"),
+    url("fonts/PeydaWeb-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: 200;
+  src: url("fonts/PeydaWeb-Extralight.woff2") format("woff2"),
+    url("fonts/PeydaWeb-Extralight.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/PeydaWeb-Light.woff2") format("woff2"),
+    url("fonts/PeydaWeb-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/peyda-Medium.woff2") format("woff2"),
+    url("fonts/PeydaWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/PeydaWeb-SemiBold.woff2") format("woff2"),
+    url("fonts/PeydaWeb-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: 750;
+  src: url("fonts/PeydaWeb-Ultrabold.woff2") format("woff2"),
+    url("fonts/PeydaWeb-Ultrabold.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: 800;
+  src: url("fonts/PeydaWeb-ExtraBold.woff2") format("woff2"),
+    url("fonts/PeydaWeb-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/PeydaWeb-Black.woff2") format("woff2"),
+    url("fonts/PeydaWeb-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/PeydaWeb-Bold.woff2") format("woff2"),
+    url("fonts/PeydaWeb-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: peyda;
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/PeydaWeb-Regular.") format("woff2"),
+    url("fonts/PeydaWeb-Regular.woff") format("woff");
+}
