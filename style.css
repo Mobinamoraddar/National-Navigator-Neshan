@@ -93,15 +93,23 @@ body {
   color: #fff;
 }
 
-.button-text {
+.get-neshan-button-text , .button-text {
   color: #fff;
   text-decoration: none !important;
   font-family: Vazir FD !important;
-  font-size: 14px;
   font-weight: 500;
   padding-right: 5px;
   padding-left: 5px;
 }
+.get-neshan-button-text
+ {
+   font-size: 16px;
+  }
+  .button-text
+  {
+    font-size: 14px;
+  }
+
 
 .buttonwrapper:hover {
   transform: translateY(-5px);
@@ -211,7 +219,7 @@ body {
   background-color: #3979d9;
   width: 1140px;
   padding: 0px 100px;
-  margin: 60px auto 120px auto; /* gotta change top */
+  margin: 60px auto 110px auto; /* gotta change top */
   border-radius: 20px;
   color: #fff;
 }
@@ -250,4 +258,131 @@ figcaption {
   color: #ffffffbf;
   font-size: 16px;
   filter: contrast(1.03);
+}
+
+
+/* ----Searchbox styles----- */
+.search-main-wrapper
+{
+    background-color: #404040;
+    width: 1090px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding : 36px 45px 50px 45px;
+    margin: auto;
+    margin-bottom: 180px;
+}
+.search-tool-partition
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 1020px; */
+}
+
+
+.search-element
+{
+    width: 48px;
+    height: 48px;
+    margin: 11px;
+
+}
+
+.search-box
+{
+    display: flex;
+    background-color: #FFF;
+    width: 680px;
+    height: 48px;
+    border-radius: 100px;
+    padding-right: 10px;
+    padding-left: 20px;
+    color: #BBBBBB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+    margin-left: 35px;
+}
+
+.search-box-container
+{
+    padding-right: 10px;
+}
+
+.faded-text
+{
+    font-size: 14px;
+    font-family: vazir FD;
+    font-weight: 400;
+    padding-right: 10px;
+}
+.icon-search
+{
+    margin-left: 10px; 
+}
+.icon-search .i:hover
+{
+  cursor: pointer;
+}
+
+
+.search-tool-text h2
+{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    direction: rtl;
+    line-height: 33.8px;
+    font-family: peyda;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.search-box input:focus {
+  outline: none;
+}
+.search-box input
+{
+  border: none;
+}
+.search-tool
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.search-icons
+{
+    display: flex;
+    /* margin-left: 10px; */
+}
+.elementor-icon svg
+{
+    transition: background .3s;
+    border-radius: 50px;
+}
+
+.elementor-icon :hover
+{
+    background-color: #3979D9; 
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.elementor-icon:hover path 
+{
+    stroke: #3979D9;
+}
+
+.buttonwrapper:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0px 3px 25px 0px rgb(0 0 0 / 9%);
+    
 }
