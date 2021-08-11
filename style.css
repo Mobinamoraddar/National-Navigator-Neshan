@@ -10,6 +10,9 @@ body {
 }
 
 /* ---------------------------------------------NAVBAR SECTION----------------------------------------------------- */
+.hamburger-menu {
+  display: none;
+}
 .header-container {
   height: 84px;
   display: flex;
@@ -118,6 +121,7 @@ body {
   color: #3979d9;
 }
 
+/* ------------------HERO-------------------- */
 .hero-container {
   padding-top: 84px;
 }
@@ -142,6 +146,7 @@ body {
   text-align: right;
   font-family: peyda !important;
 }
+/* ----------------MAIN INTRO------------- */
 .main-intro {
   display: flex;
   margin-right: auto;
@@ -217,7 +222,7 @@ body {
   background-color: #3979d9;
   width: 1140px;
   padding: 0px 100px;
-  margin: 60px auto 110px auto; /* gotta change top */
+  margin: 60px auto 110px auto;
   border-radius: 20px;
   color: #fff;
 }
@@ -233,7 +238,6 @@ body {
 .main-content img {
   position: relative;
   border-radius: 20px;
-  /* margin-right: 100px; */
 }
 figcaption {
   font-family: peyda;
@@ -258,7 +262,7 @@ figcaption {
   filter: contrast(1.03);
 }
 
-/* ----Searchbox styles----- */
+/* ----Search box styles----- */
 .search-main-wrapper {
   background-color: #404040;
   width: 1090px;
@@ -284,7 +288,6 @@ figcaption {
 }
 
 .search-box {
-  display: flex;
   background-color: #fff;
   width: 680px;
   height: 48px;
@@ -302,7 +305,9 @@ figcaption {
 .search-box-container {
   padding-right: 10px;
 }
-
+.input {
+  width: 640px;
+}
 .faded-text {
   font-size: 14px;
   font-family: vazir FD;
@@ -540,20 +545,7 @@ figcaption {
   font-size: 16px;
   font-weight: 900;
 }
-/* .footer-nav-links i{
-      -webkit-font-smoothing: antialiased;
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-      text-rendering: auto;
-      line-height: 1;
-      font-family: "Font Awesome 5 Brands";
-      font-weight: 400;
-      width: 1.25em;
-      color: #3979D9;
-      fill: #3979D9;
-      font-size: 16px;
-  } */
+
 .first-column-p {
   position: relative;
   display: flex;
