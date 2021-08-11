@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
     <link rel="icon" href="https://neshan.org/wp-content/uploads/2021/02/fave-icon.png" sizes="32x32">
     <link rel="icon" href="https://neshan.org/wp-content/uploads/2021/02/fave-icon.png" sizes="192x192">
     <!--     <script src="https://kit.fontawesome.com/bb9218956e.js" crossorigin="anonymous"></script> -->
@@ -24,6 +25,10 @@
 <body>
     <!------------------------------------   NAVBAR STARTS  ---------------------------------------------->
     <navbar class="fixed-navbar">
+        <div class="hamburger-menu">
+            <div class="header-left"><i aria-hidden="true" class="fa-fw fas fa-bars"></i></div>
+            <div class="header-right"><a href="https://neshan.org/"><img src="IMG/Asset-51x-1.svg" alt="logo"></a></div>
+        </div>
         <div class="header-container">
             <div class="header-left">
                 <div class="buttonwrapper">
@@ -261,16 +266,16 @@
                 </div>
                 <div class="search-box-container">
                     <div class="search-box">
-                        <span class="faded-text">
-                            رستوران،مراکز درمانی، مراکز تفریحی
-                            <input class="input" name="search" type="text" value="">
+                        <span>
+                            <input placeholder=" رستوران،مراکز درمانی، مراکز تفریحی" class="input faded-text"
+                                name="search" type="text" value="">
                         </span>
                         <a href="https://neshan.org/maps/"> <span class="icon-seacrh"><i class="fas fa-search"
                                     style="color: #404040"></i></span> </a>
                     </div>
                 </div>
             </div>
-
+        </div>
     </section>
 
     <!------------------------------------   SEARCHBOX  ENDS ---------------------------------------------->
@@ -362,8 +367,10 @@
             </div>
             <div class="first-column column">
                 <div class="first-column-p">
-                    <p>بهـــترین مسیریاب</p>
-                    <p>ایران در سـال ۹۷، ۹۸ و ۹۹</p>
+                    <div>
+                        <p>بهـــترین مسیریاب</p>
+                        <p>ایران در سـال ۹۷، ۹۸ و ۹۹</p>
+                    </div>
                     <img class="first-column-img" width="218" height="193"
                         src="https://neshan.org/wp-content/uploads/2020/07/Artboard-1-1.png"
                         class="attachment-full size-full" alt="" loading="lazy">
