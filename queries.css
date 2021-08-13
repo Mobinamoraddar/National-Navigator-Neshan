@@ -369,7 +369,7 @@ transform: translate(0px, -75px);
   width: 100%;
   justify-content: space-between;
 }
-.petition-section p{
+.petition-section p {
   font-size: 13px;
   text-align: right;
   max-width: 300px;
@@ -726,7 +726,7 @@ margin-right: 50px;
       padding-bottom: 15px;
     }
     .main-content {
-      height: 1670px;
+      height: 1850px;
     }
     .search-main-wrapper {padding: 20px;}
   
