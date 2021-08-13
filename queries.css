@@ -142,7 +142,7 @@
 }
 
 /* small phones to small tablets : 481px to 767px */
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .fixed-navbar,
   .main-intro,
   .main-content,
@@ -336,7 +336,7 @@
 }
 
 /* fixing navbar and search box from  610px to 481px */
-@media only screen and (max-width: 610px) {
+@media only screen and (min-width: 481px) and (max-width: 610px) {
   .fixed-navbar,
   .main-intro,
   .main-content,
