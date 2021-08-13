@@ -229,8 +229,7 @@
     text-align: center;
     transform: translate(0px, -75px);
   }
-  .main-content h2,
-  p {
+  .main-content h2, p {
     text-align: center;
   }
   .main-content p {
@@ -397,6 +396,8 @@
     text-align: center;
   }
 
+
+}
 /* small phones : 0 to 480px */
 @media only screen and (max-width: 480px) {
   .fixed-navbar,
@@ -723,8 +724,9 @@ margin-right: 50px;
 #add {
   display: inline-block;
   font-size: 10px;
-  padding-top: 4px;
-  padding-right: 5px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
   padding-bottom: 15px;
 }
 
@@ -938,7 +940,7 @@ margin-right: 50px;
 
 }
 /* ------411 to 480----- */
-@media only screen and (min-width: 412px) and (max-width: 480px)
+@media only screen and (min-width: 415px) and (max-width: 480px)
 {
 
   .main-intro-text p {
@@ -1026,7 +1028,9 @@ margin-right: 50px;
     padding-left: 15px;
   }
 
-
+#add {
+  margin-left: 10px;
+  margin-right: 10px;}
 }
 /* ----0 to 480 ends---- */
 
