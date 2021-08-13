@@ -680,6 +680,10 @@ margin-right: 50px;
 }
 .search-main-wrapper {padding: 20px;}
 
+.main-intro-text p {
+  padding-right: 15px;
+  padding-left: 15px;}
+
 }
 /* ------411 to 480----- */
 @media only screen and (min-width: 412px) and (max-width: 480px)
