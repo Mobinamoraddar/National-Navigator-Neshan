@@ -26,7 +26,11 @@
     <!------------------------------------   NAVBAR STARTS  ---------------------------------------------->
     <navbar class="fixed-navbar">
         <div class="hamburger-menu">
-            <div class="header-left"><i aria-hidden="true" class="fa-fw fas fa-bars"></i></div>
+            <div class="ham">
+                <span class = "iconmenu" class="header-left"><i aria-hidden="true" class="fa-fw fas fa-bars"></i></span>
+                 <!-- <span class="iconclose"><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg>
+            </span> -->
+            </div>    
             <div class="header-right"><a href="https://neshan.org/"><img src="IMG/Asset-51x-1.svg" alt="logo"></a></div>
         </div>
         <div class="header-container">
@@ -57,6 +61,34 @@
                 <a href="https://neshan.org/"><img src="IMG/Asset-51x-1.svg" alt=""></a>
             </div>
         </div>
+       <!-- ---This is added to be used on devices under 1024 width--- -->
+       <div class="mobilemenu">
+       <span class="iconclose"><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><line fill="#FFF" stroke="#FFF" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="FFF" stroke="#FFF" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg>
+        </span>
+            <div class="mlinks">
+                <a class="menuLink" id="toplink" href="#">نقشه</a>
+                <a class="menuLink" href="#">قابلیت‌ها</a>
+                <a class="menuLink" href="#">راه‌کارها</a>
+                <a class="menuLink" href="#">بلاگ</a>
+                <a class="menuLink" href="#">درباره</a>
+                <a class="menuLink" href="#">ارتباط با ما</a>
+                <div class="buttonwrapper">
+                    <a href="https://neshan.org/download/" role="button" class="buttoncontentwrapper">
+                        <p class="button-text">دانلود نشان</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M16.757 18.981H8" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M8.97803 11.742L12.378 14.627L15.778 11.742" stroke="white" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M12.3789 14.058V6.492" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                </div>
+        </div>
+        </div>
+        <!-- ---This is added to be used on devices under 1024 width--- -->
+
     </navbar>
 
     <!------------------------------------   NAVBAR  ENDS ---------------------------------------------->
