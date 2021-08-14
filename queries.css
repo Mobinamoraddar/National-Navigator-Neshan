@@ -1010,3 +1010,134 @@
   }
 }
 /* ----0 to 480 ends---- */
+/* ----Mediaqueries added for blue menu--- */
+@media only screen and (max-width:1024px){
+
+  .closeicon
+  {
+    fill :#fff;
+    stroke :#fff;
+    }
+ .ham {
+  /* position: fixed; */
+  z-index: 100000;
+  top: 1rem;
+  left: 1rem;
+  width: 30px;
+  height: 30px;
+  cursor: pointer; 
+}
+.iconclose {
+  display: none;
+} 
+
+.mobilemenu {
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(57, 121, 217);
+  transform: translateX(100%);
+  transition: transform 0.5s;
+  list-style: none;
+  font-size: 20px;
+  /* padding-top: 4rem; */
+}
+.mlink #toplink
+{
+  margin-top: 30px;
+}
+.mobilemenu .menuLink
+{
+  font-family: vazir FD;
+  font-size: 22px;
+  font-weight: 700;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+.iconclose svg 
+{
+  color: #FFFFFF !important;
+  fill: #FFFFFF;
+}
+.buttonwrapper
+{
+  background-color: white;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 40px;
+  color: #3979d9;
+  height: 42px;
+  width: 139px;
+}
+.buttonwrapper svg , path
+{
+  font-size: 22px;
+  stroke: #3979D9;
+  fill: #3979D9;
+  color: #3979D9;
+}
+.button-text
+{
+  font-size: 18px;
+  text-align: center;
+  color: #3979d9;
+}
+
+.showMenu {
+  transform: translateX(0);
+}
+
+}
+
+/* ---different font sizes for Mobile blue menu--- */
+@media only screen and (min-width:280px) and (max-width:767px)
+{
+  .buttonwrapper svg , path
+  {
+    font-size: 18px;
+    stroke: #3979D9;
+    fill: #3979D9;
+    color: #3979D9;
+  }
+
+  .button-text
+  {
+    font-size: 18px;
+  }
+  .mobilemenu .menuLink {
+    font-size: 18px;
+  }
+}
+/* ---close icon position--- */
+@media only screen and (min-width:280px) and (max-width:768px){
+  .iconclose {
+    margin-left: 30px;
+    margin-top: 30px;
+    }
+    .iconmenu {
+      margin-left: 18px;
+      margin-top: 0px;
+    } 
+} 
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+  .iconclose {
+    margin-left: 60px;
+    margin-top: 50px;
+    }
+    
+    
+} 
+
+  
