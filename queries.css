@@ -1012,7 +1012,6 @@
 /* ----0 to 480 ends---- */
 /* ----Mediaqueries added for blue menu--- */
 @media only screen and (max-width:1024px){
-
   .closeicon
   {
     fill :#fff;
@@ -1070,7 +1069,7 @@
   color: #FFFFFF !important;
   fill: #FFFFFF;
 }
-.buttonwrapper
+ .buttonwrapper
 {
   background-color: white;
   margin-left:auto;
@@ -1079,14 +1078,8 @@
   color: #3979d9;
   height: 42px;
   width: 139px;
-}
-.buttonwrapper svg , path
-{
-  font-size: 22px;
-  stroke: #3979D9;
-  fill: #3979D9;
-  color: #3979D9;
-}
+} 
+
 .button-text
 {
   font-size: 18px;
@@ -1103,13 +1096,7 @@
 /* ---different font sizes for Mobile blue menu--- */
 @media only screen and (min-width:280px) and (max-width:767px)
 {
-  .buttonwrapper svg , path
-  {
-    font-size: 18px;
-    stroke: #3979D9;
-    fill: #3979D9;
-    color: #3979D9;
-  }
+   
 
   .button-text
   {
