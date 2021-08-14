@@ -22,10 +22,10 @@ function toggleMenu() {
     }
      }
 
-  let menuLink = document.querySelectorAll(".menuLink");
+  // let menuLink = document.querySelectorAll(".menuLink");
 
-  menuLink.forEach(
-      function(menuLink) {
-          menuLink.addEventListener("click" , toggleMenu);
-      }
-  )
+  // menuLink.forEach(
+  //     function(menuLink) {
+  //         menuLink.addEventListener("click" , toggleMenu);
+  //     }
+  // )
