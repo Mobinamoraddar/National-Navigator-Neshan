@@ -6,7 +6,7 @@
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
   background-color: #f8f9fd;
 }
 
-/* ---------------------------------------------NAVBAR SECTION----------------------------------------------------- */
+/* -------------------------------NAVBAR SECTION-------------------------------------- */
 .hamburger-menu {
   display: none;
 }
@@ -283,7 +283,6 @@ figcaption {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 1020px; */
 }
 
 .search-element {
@@ -352,7 +351,6 @@ figcaption {
 
 .search-icons {
   display: flex;
-  /* margin-left: 10px; */
 }
 .elementor-icon svg {
   transition: background 0.3s;
@@ -391,7 +389,6 @@ figcaption {
   padding: 30px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   border-radius: 20px;
   background-color: #f2f4fb;
   width: 586px;
@@ -419,9 +416,6 @@ figcaption {
   justify-content: space-around;
   align-items: flex-start;
 }
-/* .info-text h2 {
-    padding-bottom: 20px;
-  } */
 
 .more-button {
   text-decoration: none;
@@ -499,7 +493,6 @@ figcaption {
 .column {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
   align-items: flex-start;
 }
 .first-column {
@@ -514,7 +507,6 @@ figcaption {
 .column h3,
 #address {
   padding-top: 20px;
-  /* margin-bottom: 20px; */
   color: #000000;
   font-size: 15px;
   font-weight: bold;
@@ -525,7 +517,8 @@ figcaption {
   line-height: 190%;
   color: #404040;
 }
-.footer-nav-links, .footer-nav-links-telegram {
+.footer-nav-links,
+.footer-nav-links-telegram {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
@@ -590,10 +583,12 @@ figcaption {
   text-decoration: none;
   color: #0274be;
 }
+.footer-copy-right a:hover {
+  color: #3a3a3a;
+}
 
 /* ----added for media queries---- */
-.tablet-text
-{
+.tablet-text {
   display: none;
   font-family: peyda;
   font-size: 25px;
@@ -601,24 +596,19 @@ figcaption {
   margin-right: 145px;
   margin-top: 230px;
   font-weight: 900;
-  color: #262626 ;
+  color: #262626;
   line-height: 1.9;
 }
 
-.go-down
-{
+.go-down {
   display: none;
 }
-/* _Another address added fore tablets_ */
-#add
-{
-display: none;
 
-}
-.mobilemenu
-{
+/* _Another address added for tablets */
+
+#add {
   display: none;
-  
 }
-
-
+.mobilemenu {
+  display: none;
+}
