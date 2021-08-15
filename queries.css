@@ -1027,7 +1027,7 @@
   cursor: pointer; 
 }
 .iconclose {
-  display: none;
+  display: block;
 } 
 
 .mobilemenu {
