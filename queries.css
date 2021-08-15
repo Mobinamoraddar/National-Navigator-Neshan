@@ -1040,7 +1040,7 @@
   width: 100%;
   height: 100vh;
   background-color: rgb(57, 121, 217);
-  transform: translateX(100%);
+  transform: translateX(100%); /* closes the menu to the right  */
   transition: transform 0.5s;
   list-style: none;
   font-size: 20px;
@@ -1064,11 +1064,7 @@
   list-style: none;
   text-decoration: none;
 }
-.iconclose svg 
-{
-  color: #FFFFFF !important;
-  fill: #FFFFFF;
-}
+
  .buttonwrapper
 {
   background-color: white;
@@ -1088,12 +1084,21 @@
 }
 
 .showMenu {
-  transform: translateX(0);
+  transform: translateX(0); /* open menu 100% to left  */
 }
 
 }
 
 /* ---different font sizes for Mobile blue menu--- */
+
+@media only screen and (min-width:540px) and (max-width:767px)
+{
+  .iconclose {
+    margin-left: 270px;
+    margin-top: 70px;
+    }
+} 
+
 @media only screen and (min-width:280px) and (max-width:767px)
 {
    

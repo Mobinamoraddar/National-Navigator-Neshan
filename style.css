@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   font-family: Vazir FD !important;
   background-color: #f8f9fd;
@@ -455,6 +460,8 @@ figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  bottom: 0px;
 }
 .petition-section button {
   cursor: pointer;
@@ -613,3 +620,5 @@ display: none;
   display: none;
   
 }
+
+

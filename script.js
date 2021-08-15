@@ -4,13 +4,11 @@ let iconclose = document.querySelector(".iconclose");
 let iconmenu = document.querySelector(".iconmenu");
 
 ham.addEventListener("click" ,toggleMenu);
-
-menu.classList.contains("showMenu");
+iconclose.addEventListener("click",toggleMenu);
 
 function toggleMenu() {
     if (menu.classList.contains("showMenu")) {
         menu.classList.remove("showMenu");
-        
         //  iconclose.style.display = "none";
         iconmenu.style.display = "block";
     }
@@ -21,11 +19,3 @@ function toggleMenu() {
       iconmenu.style.display = "none";
     }
      }
-
-  // let menuLink = document.querySelectorAll(".menuLink");
-
-  // menuLink.forEach(
-  //     function(menuLink) {
-  //         menuLink.addEventListener("click" , toggleMenu);
-  //     }
-  // )
